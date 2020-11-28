@@ -1,0 +1,51 @@
+iframe {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    width: 600px;
+    height: 450px;
+}
+
+#televizio{
+    position: absolute;
+    background-color: black;
+}
+
+#tv{
+    position: relative;
+}
+
+#nosig{
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    width: 600px;
+    height: 450px;
+    display: none;
+}
+
+#buttons{
+    position: absolute;
+    top: 305px;
+    left: 710px;
+}
+
+    #buttons button{
+        display: block;
+        margin-bottom: 16px;
+        width: 32px;
+        background-color: black;
+    }
+
+    #on{
+        color: greenyellow;
+    }
+
+    #off{
+        color: red;
+    }
+
+    #one, #two, #three{
+        color: white;
+    }
